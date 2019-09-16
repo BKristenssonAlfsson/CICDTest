@@ -24,4 +24,9 @@ public class CalculatorTest {
     public void twoPointFiveMinusOnePointThreeEqualsOnePointTwo() {
         Assertions.assertEquals(1.2, calc.subtract(2.5, 1.3), "2.5 - 1.3 should be 1.2" );
     }
+    
+    @Test
+    public void threeTimesThreeEqualsNine() {
+        Assertions.assertEquals(7, calc.multiply(3, 3), "3 * 3 should be 9" );
+    }
 }
