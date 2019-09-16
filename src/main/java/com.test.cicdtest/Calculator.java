@@ -9,4 +9,8 @@ public class Calculator {
     public Double subtract(double number1, double number2){
         return number1 - number2;
     }
+    
+    public Integer multiply(double number1, double number2){
+        return number1 * number2;
+    }
 }
