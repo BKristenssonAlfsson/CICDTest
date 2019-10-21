@@ -13,4 +13,7 @@ public class Calculator {
     public Integer multiply(int number1, int number2){
         return number1 * number2;
     }
+    
+    public Double divide(int number1, int number2) {
+        return number1 / number2;
 }
