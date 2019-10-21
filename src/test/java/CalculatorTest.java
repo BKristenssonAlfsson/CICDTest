@@ -29,4 +29,9 @@ public class CalculatorTest {
     public void threeTimesThreeEqualsNine() {
         Assertions.assertEquals(9, calc.multiply(3, 3), "3 * 3 should be 9" );
     }
+    
+    @Test
+    public void nineDividedByThreeShouldBeThree() {
+        Assertions.assertEquals(3, calc.divide(9,3), "9 / 3 should be three")
+    }
 }
